@@ -2,19 +2,103 @@
 
 body {
   margin: 10px 0;
-  font: 0.8em 'Trebuchet MS',
-  'Lucida Sans Unicode',
-  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: 0.8em 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #ddeeaa;
 }
 
 #conteneur {
   width: 770px;
-  margin: 0 auto;
   background-color: #fff;
+  margin: 0 auto;
   border: 2px solid #ab4;
 }
 
 #header {
-  line-height: 250px;
+  line-height: 258px;
+  /* background-image: url(../img/apple.jpg);
+  background-repeat: no-repeat;
+  background-position: -25px top; */
+  /* la propriété background en raccourci */
+  background: no-repeat url(../img/apple.jpg) left top;
 }
+
+ul#menu {
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  list-style-type: none;
+  background: url(../img/apple.jpg) -25px top;
+  text-align: center;
+}
+
+#menu li {
+  margin-top: 0;
+  display: inline-block;
+  width: 130px;
+  line-height: 25px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-right: 2px solid #dea;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section #contenu {
+  padding-left: 0 30px 0 100px;
+
+}
+
+#contenu h2 {
+  padding-left: 25px;
+  background: no-repeat url(../img/little_apple.gif) left bottom;
+  color: #9b2;
+  border-bottom: 1px solid #9b2;
+  line-height: 25px;
+  font-size: 1.4em;
+}
+
+#cotenu h3 {
+  color: #0b2;
+  border-bottom: 1px solid #9b2;
+  border-left: 1px solid #9b2;
+  padding-left: 5px;
+  margin-left: 15px;
+}
+
+#contenu p {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.7em;
+}
+
+#contenu blockquote {
+  padding-left: 10px;
+  border-left: 5px solid #9b2;
+}
+
+#contenu #a-droite {
+  text-align: right;
+  color: #8a0;
+}
+
+#contenu a {
+  color: #8a0;
+  text-decoration: none;
+}
+
+#contenu a:hover {
+  text-decoration: underline;
+}
+
+footer P {
+  margin: 0;
+  text-align: right;
+  line-height: 30px;
+  color: #8a0;
+  padding-right: 10px;
+}
+
